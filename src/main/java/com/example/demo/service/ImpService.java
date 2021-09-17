@@ -10,6 +10,7 @@ import com.example.demo.exceptions.ResourceNotFoundException;
 import com.example.demo.repo.CategoryRepo;
 import com.example.demo.repo.ProductRepo;
 import com.example.demo.validator.ProductValidator;
+import javassist.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
